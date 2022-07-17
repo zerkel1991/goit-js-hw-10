@@ -2,14 +2,14 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "**Read in other languages: [Русский](README.md), [Polski](README.pl.md).**",
-  "homepage": "https://zerkel1991.github.io/goit-js-hw-09",
+  "homepage": "https://zerkel1991.github.io/goit-js-hw-10",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zerkel1991/goit-js-hw-09"
+    "url": "https://github.com/zerkel1991/goit-js-hw-10"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -20,6 +20,7 @@
   "dependencies": {
     "@vimeo/player": "^2.17.1",
     "flatpickr": "^4.6.13",
+    "lodash.debounce": "^4.0.8",
     "lodash.throttle": "^4.1.1",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.5",

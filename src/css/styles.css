@@ -18,3 +18,15 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+.country__item,.country-info__item {
+  display: flex;
+  align-items: center;
+}
+.country__item:not(:last-child){
+  margin-bottom: 20px;
+}
+.country__name, .country-info__item{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  margin-left: 10px;
+}
