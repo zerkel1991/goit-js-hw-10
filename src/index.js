@@ -40,7 +40,7 @@ removeRenderHtml()
 function createLiFromJson(ArrayOfObjects){
     const countryArr = ArrayOfObjects.map((element)=>{
 
-      const countryItem = `<li class="country__item"><img class="gallery__image" src= ${element.flags.svg} alt="fdfdf" width="50px" /><span class="country__name">${element.name.common}</span> </li>`
+      const countryItem = `<li class="country__item"><img class="gallery__image" src= ${element.flags.svg} alt="country-flag" width="50px" /><span class="country__name">${element.name.common}</span> </li>`
       return countryItem
     })
     findedCountryList.insertAdjacentHTML("beforeend",countryArr.join(" "));
